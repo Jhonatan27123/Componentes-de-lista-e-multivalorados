@@ -1,0 +1,32 @@
+{
+  "name": "extension",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.2.3",
+    "expo": "~51.0.28",
+    "expo-status-bar": "~1.12.1",
+    "expo-web-browser": "~13.0.3",
+    "firebase": "^10.13.1",
+    "firebase-admin": "^12.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-elements": "^3.4.3",
+    "react-native-fab": "^1.0.18",
+    "react-native-paper": "^5.12.5",
+    "react-native-popup-menu": "^0.16.1",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-web": "~0.19.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
