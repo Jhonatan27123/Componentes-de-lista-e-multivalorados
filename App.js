@@ -11,7 +11,6 @@ export default function App() {
   const addItem = () => {
     if (item && quantity) {
       const newItem = { id: Date.now().toString(), name: item, quantity: parseInt(quantity), completed: false };
-      // Adiciona o novo item no início da lista
       setShoppingList((prevList) => [newItem, ...prevList]);
       setItem('');
       setQuantity('');
